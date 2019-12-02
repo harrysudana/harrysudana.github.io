@@ -6,10 +6,26 @@
     <description>Recent content on inhs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Oct 2019 02:41:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 23:39:54 +0800</lastBuildDate>
     
 	<atom:link href="https://www.inhs.web.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Brew Update Php Default Ke Versi 7 4</title>
+      <link>https://www.inhs.web.id/blog/brew-update-php-default-ke-versi-7-4/</link>
+      <pubDate>Mon, 02 Dec 2019 23:39:54 +0800</pubDate>
+      
+      <guid>https://www.inhs.web.id/blog/brew-update-php-default-ke-versi-7-4/</guid>
+      <description>Setelah melakukan update dan upgrade brew, tiba-tiba CMS yang berbasiskan OctoberCMS gagal untuk berjalan sempurna.
+Belum sempat review untuk update code terbaru dari team OctoberCMS, akhirnya coba kita install php versi 7.3 kembali.
+brew install php@7.3
+Kemudian, buat symbolic link untuk php73 agar bisa digunakan dengan command php73 di cli.
+cd /usr/local/bin/
+ln -s php73 ../Cellar/php@7.3/7.3.12/bin/php
+untuk sementara menjalankan menggunakan php73 saja dulu.
+php73 artisan serve</description>
+    </item>
     
     <item>
       <title>Remote Fatal Unable to Create Thread Resource Temporarily Unavailable</title>

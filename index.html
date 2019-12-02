@@ -53,6 +53,20 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
+    <a href="https://www.inhs.web.id/blog/brew-update-php-default-ke-versi-7-4/">Brew Update Php Default Ke Versi 7 4</a>
+  </h1>
+  <time datetime="2019-12-02T23:39:54&#43;0800" class="post-date">Mon, Dec 2, 2019</time>
+  Setelah melakukan update dan upgrade brew, tiba-tiba CMS yang berbasiskan OctoberCMS gagal untuk berjalan sempurna.
+Belum sempat review untuk update code terbaru dari team OctoberCMS, akhirnya coba kita install php versi 7.3 kembali.
+brew install php@7.3
+Kemudian, buat symbolic link untuk php73 agar bisa digunakan dengan command php73 di cli.
+cd /usr/local/bin/
+ln -s php73 ../Cellar/php@7.3/7.3.12/bin/php
+untuk sementara menjalankan menggunakan php73 saja dulu.
+php73 artisan serve
+  
+</article><article class="post">
+  <h1 class="post-title">
     <a href="https://www.inhs.web.id/remote-fatal-unable-to-create-thread-resource-temporarily-unavailable/">Remote Fatal Unable to Create Thread Resource Temporarily Unavailable</a>
   </h1>
   <time datetime="2019-10-26T02:41:52&#43;0800" class="post-date">Sat, Oct 26, 2019</time>
