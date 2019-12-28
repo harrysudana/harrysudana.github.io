@@ -22,7 +22,7 @@ Belum sempat review untuk update code terbaru dari team OctoberCMS, akhirnya cob
 brew install php@7.3
 Kemudian, buat symbolic link untuk php73 agar bisa digunakan dengan command php73 di cli.
 cd /usr/local/bin/
-ln -s php73 ../Cellar/php@7.3/7.3.12/bin/php
+ln -s ../Cellar/php@7.3/7.3.12/bin/php php73
 untuk sementara menjalankan menggunakan php73 saja dulu.
 php73 artisan serve</description>
     </item>
